@@ -91,7 +91,7 @@
 /* Mobile: align page title with hamburger icon */
 @media (max-width: 767.98px) {
   #page-title {
-    padding-top: 0.5rem;
+    padding-top: 2.5rem;
   }
 }
 
