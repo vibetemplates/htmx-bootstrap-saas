@@ -1,5 +1,16 @@
 # Development Activity Log
 
+## 2026-04-09: Align Mobile Header Title with Hamburger Icon
+
+### Prompt
+User reported that on mobile, the "Task Tracker" title in the header needs to be pushed down to match the level of the hamburger icon.
+
+### Actions Performed
+- Added a mobile-only CSS rule (`@media max-width: 767.98px`) to add `padding-top: 0.5rem` to `#page-title`, aligning it vertically with the hamburger icon.
+
+### Files Modified
+- `/html/assets/css/kobie-custom.css` - Added mobile padding for page title.
+
 ## 2026-04-09: Fix Mobile Sidebar Not Closing on Menu Selection
 
 ### Prompt

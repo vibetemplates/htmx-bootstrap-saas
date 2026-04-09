@@ -88,6 +88,13 @@
   border-left: 3px solid #6366f1;
 }
 
+/* Mobile: align page title with hamburger icon */
+@media (max-width: 767.98px) {
+  #page-title {
+    padding-top: 0.5rem;
+  }
+}
+
 /* Main content padding */
 .main-content {
   padding: 1.5rem;
