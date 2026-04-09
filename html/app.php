@@ -362,6 +362,16 @@ $user = get_user();
           if (trigger && trigger.closest('.nxl-item')) {
             trigger.closest('.nxl-item').classList.add('active', 'current-page');
           }
+
+          // Close mobile sidebar after navigation
+          var nav = document.querySelector('.nxl-navigation');
+          if (nav && nav.classList.contains('mob-navigation-active')) {
+            nav.classList.remove('mob-navigation-active');
+            var overlay = nav.querySelector('.nxl-menu-overlay');
+            if (overlay) overlay.remove();
+            var hamburger = document.querySelector('.hamburger');
+            if (hamburger) hamburger.classList.remove('is-active');
+          }
         }
       });
 

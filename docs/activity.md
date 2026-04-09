@@ -1,5 +1,17 @@
 # Development Activity Log
 
+## 2026-04-09: Fix Mobile Sidebar Not Closing on Menu Selection
+
+### Prompt
+User reported that on mobile, the sidebar menu opens but doesn't close when a menu item is selected.
+
+### Actions Performed
+- Identified that the `nxl-navigation.min.js` uses `mob-navigation-active` class on `.nxl-navigation` to show the mobile sidebar, but clicking a nav link doesn't remove it.
+- Added code to the `htmx:afterRequest` handler in `app.php` to close the mobile sidebar (remove `mob-navigation-active`, remove overlay, reset hamburger icon) after content loads into `#page-content`.
+
+### Files Modified
+- `/html/app.php` - Added mobile sidebar close logic to the navigation active state handler.
+
 ## 2025-11-17: Development Environment Setup
 
 ### Prompt
