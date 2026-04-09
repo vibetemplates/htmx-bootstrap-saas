@@ -15,7 +15,7 @@ class Database {
     private const DB_PORT = '3306';
     private const DB_NAME = 'vibe_templates';
     private const DB_USER = 'vibe_templates';
-    private const DB_PASS = '#Skilliks229!';
+    private const DB_PASS = '#VibeTemplate$';
 
     /**
      * Private constructor to prevent direct instantiation
