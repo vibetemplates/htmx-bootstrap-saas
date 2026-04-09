@@ -1,2 +1,2 @@
-# htmx-lamp-saas
+# htmx-bootstrap-saas
 
