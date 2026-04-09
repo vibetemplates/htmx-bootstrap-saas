@@ -88,10 +88,13 @@
   border-left: 3px solid #6366f1;
 }
 
-/* Mobile: align page title with hamburger icon */
+/* Mobile: align page title and user dropdown with hamburger icon */
 @media (max-width: 767.98px) {
   #page-title {
-    padding-top: 2.5rem;
+    padding-top: 1.9rem;
+  }
+  #kobie-user-dropdown {
+    padding-top: 1.9rem;
   }
 }
 
